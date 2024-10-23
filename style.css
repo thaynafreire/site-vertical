@@ -11,7 +11,7 @@ ul,ol,li{
     list-style: none;
 }
 body{
-    font-family: 'Markazi', sans-serif;
+    font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
 header{
@@ -44,6 +44,42 @@ header nav a:hover{
     color: #f2f5f7;
     background-color: #ff71b5;
 }
+
+section {
+    padding-left: 10vh;
+    padding-right: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#caixa-branca-florzinha{
+    margin-top: 100px;
+    margin-left: 200px;
+    background-color: #f2f5f7;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 2px;
+    font-size: 25px;
+}
+
+#caixa-branca-florzinha h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: #FF69b4; 
+}
+
+#caixa-branca-florzinha p{
+    margin-top: 0px;
+}
+
+#florzinhaimg{
+    width: 550px;
+    height: auto;
+    margin-right: 230px;
+}
+
 .grupo{
     height: 100vh;
 }
