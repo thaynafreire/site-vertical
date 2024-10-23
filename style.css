@@ -11,49 +11,54 @@ ul,ol,li{
     list-style: none;
 }
 body{
+    font-family: 'Markazi', sans-serif;
     scroll-behavior: smooth;
 }
 header{
-    background-color: #333;
+    background-color: #f2f5f7;
     /*fixo*/
     position: fixed;
     /*vw largura do navegador*/
     width: 100vw;
 }
+#logo{
+    width: 150px;
+}
 /*Para as nav ficarem em linha nao e coluna*/
 header nav ul{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     /*Aumanetando a altura do header*/
-    padding: 16px;
+    padding: 5px;
 }
 header nav a{
-    color: white;
-    padding: 8px;
+    font-weight: bold;
+    color: #211b15;
+    padding: 5vh;
     /*ficar devagar ao passar o mouse*/
     transition: background-color 1s;
 }
 /*quando passar por cima do mouse*/
 header nav a:hover{
-    background-color: lightblue;
-    color: black;
-
+    color: #f2f5f7;
+    background-color: #ff71b5;
 }
 .grupo{
     height: 100vh;
 }
-#vermelho{
-    background-color: #ff6b6b;
+#florzinha{
+    background-image: linear-gradient(to bottom,#f2f5f7,#ffcbdb)
 }
-#verde{
+#lindinha{
     background-color: #1dd1a1;
 }
-#azul{
+#docinho{
     background-color: #54a0ff;
 }
-#amarelo{
+#macacolouco{
     background-color: #feca57;
 }
-#roxo{
+#professor{
     background-color: purple;
 }
