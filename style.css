@@ -45,6 +45,10 @@ header nav a:hover{
     background-color: #ff71b5;
 }
 
+.grupo{
+    height: 100vh;
+}
+
 section {
     padding-left: 10vh;
     padding-right: 10vh;
@@ -53,10 +57,29 @@ section {
     align-items: center;
 }
 
+
+#florzinha{
+    background-image: linear-gradient(to bottom,#f2f5f7,#ffcbdb)
+}
+
+#colunadeimagens{
+    margin-top: 20px;
+    height: auto;
+    float: right;
+    align-items: column;
+}
+
+#colunadeimagens img{
+    width: 200px;
+    height: auto;
+}
+
 #caixa-branca-florzinha{
-    margin-top: 100px;
-    margin-left: 200px;
-    background-color: #f2f5f7;
+    box-shadow: 4px 4px 10px rgba(16, 16, 16, 0.1);
+    margin-top: 480px;
+    margin-left: 5px;
+    margin-right: 50px;
+    background-color: rgba(242, 245, 247, 0.1);
     width: 100%;
     max-width: 600px;
     padding: 30px;
@@ -75,26 +98,209 @@ section {
 }
 
 #florzinhaimg{
+    margin-top: 100px;
     width: 550px;
     height: auto;
-    margin-right: 230px;
+    margin-right: 200px;
 }
 
-.grupo{
-    height: 100vh;
-}
-#florzinha{
-    background-image: linear-gradient(to bottom,#f2f5f7,#ffcbdb)
-}
 #lindinha{
-    background-color: #1dd1a1;
+    background-image: linear-gradient(to bottom,#f2f5f7,#bfddf3)
 }
+
+#colunadeimagens-lindinha img{
+    height: auto;
+    float: right;
+}
+
+#lindinha1{
+    margin-top: 80px;
+    align-items: column;
+    width: 200px;
+    height: auto;
+}
+#lindinha2{
+    align-items: column;
+    width: 190px;
+    height: auto;
+    margin-bottom: -50px;
+}
+#lindinha3{
+    margin-top: 70px;
+    align-items: column;
+    width: 180px;
+    height: auto;
+}
+
+#caixa-branca-lindinha{
+    box-shadow: 4px 4px 10px rgba(16, 16, 16, 0.1);
+    margin-top: 380px;
+    margin-left: 5px;
+    margin-right: 50px;
+    background-color: rgba(242, 245, 247, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 2px;
+    font-size: 25px;
+}
+
+#caixa-branca-lindinha h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: #6eb2c8; 
+}
+
+#caixa-branca-lindinha p{
+    margin-top: 0px;
+}
+
+#lindinhaimg{
+    margin-top: 100px;
+    width: 550px;
+    height: auto;
+    margin-right: 200px;
+}
+
 #docinho{
-    background-color: #54a0ff;
+    background-image: linear-gradient(to bottom,#f2f5f7,#bdecb6)
 }
+
+#colunadeimagens-docinho{
+    margin-top: 20px;
+    height: auto;
+    float: right;
+    align-items: column;
+}
+
+#colunadeimagens-docinho img{
+    width: 200px;
+    height: auto;
+}
+
+#caixa-branca-docinho{
+    box-shadow: 4px 4px 10px rgba(16, 16, 16, 0.1);
+    margin-top: 480px;
+    margin-left: 5px;
+    margin-right: 50px;
+    background-color: rgba(242, 245, 247, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 2px;
+    font-size: 25px;
+}
+
+#caixa-branca-docinho h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: #229a00; 
+}
+
+#caixa-branca-docinho p{
+    margin-top: 0px;
+}
+
+#docinhoimg{
+    margin-top: 100px;
+    width: 550px;
+    height: auto;
+    margin-right: 200px;
+}
+
 #macacolouco{
-    background-color: #feca57;
+    background-image: linear-gradient(to bottom,#f2f5f7,#bba2d4)
 }
+
+#colunadeimagens-macacolouco{
+    margin-top: 20px;
+    height: auto;
+    float: right;
+    align-items: column;
+}
+
+#colunadeimagens-macacolouco img{
+    height: auto;
+    margin-bottom: 40px;
+}
+
+#macacolouco1{
+    width: 180px;
+    height: auto;
+}
+
+#caixa-branca-macacolouco{
+    box-shadow: 4px 4px 10px rgba(16, 16, 16, 0.1);
+    margin-top: 480px;
+    margin-left: 5px;
+    margin-right: 50px;
+    background-color: rgba(242, 245, 247, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 2px;
+    font-size: 25px;
+}
+
+#caixa-branca-macacolouco h1{
+    font-size: 60px;    color: #6b3fa0; 
+}
+
+#caixa-branca-macacolouco p{
+    margin-top: 0px;
+}
+
+#macacoloucoimg{
+    margin-top: 100px;
+    width: 580px;
+    height: auto;
+    margin-right: 200px;
+}
+
 #professor{
-    background-color: purple;
+    background-image: linear-gradient(to bottom,#f2f5f7,#929292)
+}
+
+#colunadeimagens-professor{
+    align-items: column;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    height: auto;
+    float: right;
+}
+
+#colunadeimagens-professor img{
+    align-items: column;
+    width: 180px;
+    height: auto;
+}
+
+#caixa-branca-professor{
+    box-shadow: 4px 4px 10px rgba(16, 16, 16, 0.1);
+    margin-top: 480px;
+    margin-left: 5px;
+    margin-right: 50px;
+    background-color: rgba(242, 245, 247, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 2px;
+    font-size: 25px;
+}
+
+#caixa-branca-professor h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: #5e5e5e; 
+}
+
+#caixa-branca-professor p{
+    margin-top: 0px;
+}
+
+#professorimg{
+    margin-top: 280px;
+    width: 990px;
+    height: auto;
+    margin-right: 200px;
 }
